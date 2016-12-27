@@ -36,7 +36,7 @@ public class TransactionData extends BaseTest{
 		Assert.assertEquals(TrxIDWording, String.Seller);
 		
 		//Gathering transaction ID
-		TrxID_UI = TrxID_UI.substring(15); //remove "Seller: "
+		TrxID_UI = TrxID_UI.substring(15); //remove "Transaction ID: "
 		
 	}
 	@Test(enabled=true, priority=2)
@@ -67,7 +67,7 @@ public class TransactionData extends BaseTest{
 		Assert.assertEquals(getDeliveryServiceWording, String.DeliveryService);
 		
 		//Gathering delivery service
-		DeliveryService_UI = DeliveryService_UI.substring(17);
+		DeliveryService_UI = DeliveryService_UI.substring(17); //remove"Delovery Service: "
 		
 	}
 	
@@ -83,7 +83,7 @@ public class TransactionData extends BaseTest{
 		Assert.assertEquals(getDateOrderWording, String.DateOrder);
 		
 		//Gathering date order
-		DateOrder_UI = DateOrder_UI.substring(11);
+		DateOrder_UI = DateOrder_UI.substring(11); //remove "Date order: "
 	}
 	
 	@Test(enabled=true, priority=5)
@@ -98,7 +98,7 @@ public class TransactionData extends BaseTest{
 		Assert.assertEquals(getAddressShipmentWording, String.AddressShipment);
 		
 		//Gathering address shipment
-		AddressShipment_UI = AddressShipment_UI.substring(17);
+		AddressShipment_UI = AddressShipment_UI.substring(17); //remove "Addess Shipment: "
 		
 	}
 	
